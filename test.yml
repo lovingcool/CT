@@ -1,0 +1,7 @@
+name: Copy file with owner and permissions
+  copy:
+    src: /tmp/test
+    dest: /root/Desktop/test
+    owner: root
+    group: wswg
+    mode: '0777'
